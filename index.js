@@ -118,8 +118,8 @@ const zooAnimals = [
       newArr.push(arr[i].population);
     }
     let totPop = newArr.reduce((totPop, prop) => {
-      let totNum = totPop += prop;
-      return totNum
+      totPop += prop;
+      return totPop;
     }, 0);
     return totPop;
   }
