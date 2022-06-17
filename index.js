@@ -16,11 +16,14 @@ function myFunction() {
 //myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
+/*
+
+nestedFunction can access the variable internal because of scope. 
+Since scope works in rather than out, any nested function can access the variable internal
+as long as they are nested under myFunction.
 
 
-
-
-
+*/
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
 /* Use summation to do the following:
     1. Receive a number as an argument passed from a parameter
